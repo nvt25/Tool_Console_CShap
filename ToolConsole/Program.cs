@@ -109,7 +109,11 @@ namespace Main
         {
             string atlas = $"{_key}.atlas";
             string skel = $"{_key}.skel";
-            return Path.GetFileNameWithoutExtension(_path).Equals(_key) || Path.GetFileNameWithoutExtension(_path).Equals(atlas) || Path.GetFileNameWithoutExtension(_path).Equals(skel);
+            string binary = $"{_key}binary.skel";
+            string ry = $"{_key}ry.skel";
+            return Path.GetFileNameWithoutExtension(_path).Equals(_key) || Path.GetFileNameWithoutExtension(_path).Equals(atlas)
+                || Path.GetFileNameWithoutExtension(_path).Equals(skel) || Path.GetFileNameWithoutExtension(_path).Equals(binary)
+                || Path.GetFileNameWithoutExtension(_path).Equals(ry);
         }
         public static void RenameFile(string _path)
         {
