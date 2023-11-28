@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO;
+using System.Linq;
 
 namespace Main
 {
@@ -33,7 +35,7 @@ namespace Main
                 }
                 //Get file only floder
                 //string[] files = Directory.GetFiles(path, "*.*", SearchOption.TopDirectoryOnly);
-                string[] files = Directory.GetFiles(path, "*.*", SearchOption.AllDirectories);
+                List<string> files = Directory.GetFiles(path, "*.*", SearchOption.AllDirectories).ToList();
                 Console.WriteLine($"List file in floder '{path}':");
 
                 foreach (string file in files)
@@ -59,7 +61,7 @@ namespace Main
                     }
                 }
 
-                Console.WriteLine($"Total File In Folder :{files.Length}");
+                Console.WriteLine($"Total File In Folder :{files.Count}");
 
 
                 foreach (var item in listFolderExport)
@@ -75,11 +77,21 @@ namespace Main
                         {
                             Console.WriteLine("Da ton tai");
                         }
-                        List<string> dataSpine = files.Where(x => x.Contains(item.Key)).ToList();
+                        //Get
+                        List<string> dataSpine = files.Where(x => GetnameFile(x, item.Key)).ToList();
+                        Console.WriteLine("Get File*********************** Count :" + dataSpine.Count + ":" + item.Key);
                         foreach (string file in dataSpine)
                         {
-                            string destinationFilePath = Path.Combine(item.Value, Path.GetFileName(file));
-                            File.Move(file, destinationFilePath);
+                            try
+                            {
+                                string destinationFilePath = Path.Combine(item.Value, Path.GetFileName(file));
+                                File.Move(file, destinationFilePath);
+                                RenameFile(file);
+                            }
+                            catch (Exception ex)
+                            {
+                                Console.WriteLine("Trung Ten ########" + file + "_____" + file);
+                            }
                         }
                     }
                     catch (Exception ex)
@@ -91,6 +103,27 @@ namespace Main
             else
             {
                 Console.WriteLine($"Folder ___{path}___ not.");
+            }
+        }
+        public static bool GetnameFile(string _path, string _key)
+        {
+            string atlas = $"{_key}.atlas";
+            string skel = $"{_key}.skel";
+            return Path.GetFileNameWithoutExtension(_path).Equals(_key) || Path.GetFileNameWithoutExtension(_path).Equals(atlas) || Path.GetFileNameWithoutExtension(_path).Equals(skel);
+        }
+        public static void RenameFile(string _path)
+        {
+            if (Path.GetFileName(_path).Contains("atlas.txt") || Path.GetFileName(_path).Contains("png"))
+            {
+                return;
+            }
+            if (Path.GetFileName(_path).Contains("skel"))
+            {
+                File.Move(_path, Path.ChangeExtension(_path, ".bytes"));
+            }
+            else
+            {
+                File.Move(_path, Path.ChangeExtension(_path, ".json"));
             }
         }
     }

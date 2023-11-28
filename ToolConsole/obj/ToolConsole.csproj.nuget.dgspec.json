@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Tool\\ToolConsole\\ToolConsole\\ToolConsole.csproj": {}
+    "D:\\Tool\\Tool_Console_CShap\\ToolConsole\\ToolConsole.csproj": {}
   },
   "projects": {
-    "D:\\Tool\\ToolConsole\\ToolConsole\\ToolConsole.csproj": {
+    "D:\\Tool\\Tool_Console_CShap\\ToolConsole\\ToolConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Tool\\ToolConsole\\ToolConsole\\ToolConsole.csproj",
+        "projectUniqueName": "D:\\Tool\\Tool_Console_CShap\\ToolConsole\\ToolConsole.csproj",
         "projectName": "ToolConsole",
-        "projectPath": "D:\\Tool\\ToolConsole\\ToolConsole\\ToolConsole.csproj",
+        "projectPath": "D:\\Tool\\Tool_Console_CShap\\ToolConsole\\ToolConsole.csproj",
         "packagesPath": "C:\\Users\\Dev\\.nuget\\packages\\",
-        "outputPath": "D:\\Tool\\ToolConsole\\ToolConsole\\obj\\",
+        "outputPath": "D:\\Tool\\Tool_Console_CShap\\ToolConsole\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dev\\AppData\\Roaming\\NuGet\\NuGet.Config",

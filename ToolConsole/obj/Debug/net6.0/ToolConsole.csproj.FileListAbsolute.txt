@@ -12,3 +12,17 @@ D:\Tool\ToolConsole\ToolConsole\obj\Debug\net6.0\refint\ToolConsole.dll
 D:\Tool\ToolConsole\ToolConsole\obj\Debug\net6.0\ToolConsole.pdb
 D:\Tool\ToolConsole\ToolConsole\obj\Debug\net6.0\ToolConsole.genruntimeconfig.cache
 D:\Tool\ToolConsole\ToolConsole\obj\Debug\net6.0\ref\ToolConsole.dll
+D:\Tool\Tool_Console_CShap\ToolConsole\bin\Debug\net6.0\ToolConsole.exe
+D:\Tool\Tool_Console_CShap\ToolConsole\bin\Debug\net6.0\ToolConsole.deps.json
+D:\Tool\Tool_Console_CShap\ToolConsole\bin\Debug\net6.0\ToolConsole.runtimeconfig.json
+D:\Tool\Tool_Console_CShap\ToolConsole\bin\Debug\net6.0\ToolConsole.dll
+D:\Tool\Tool_Console_CShap\ToolConsole\bin\Debug\net6.0\ToolConsole.pdb
+D:\Tool\Tool_Console_CShap\ToolConsole\obj\Debug\net6.0\ToolConsole.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tool\Tool_Console_CShap\ToolConsole\obj\Debug\net6.0\ToolConsole.AssemblyInfoInputs.cache
+D:\Tool\Tool_Console_CShap\ToolConsole\obj\Debug\net6.0\ToolConsole.AssemblyInfo.cs
+D:\Tool\Tool_Console_CShap\ToolConsole\obj\Debug\net6.0\ToolConsole.csproj.CoreCompileInputs.cache
+D:\Tool\Tool_Console_CShap\ToolConsole\obj\Debug\net6.0\ToolConsole.dll
+D:\Tool\Tool_Console_CShap\ToolConsole\obj\Debug\net6.0\refint\ToolConsole.dll
+D:\Tool\Tool_Console_CShap\ToolConsole\obj\Debug\net6.0\ToolConsole.pdb
+D:\Tool\Tool_Console_CShap\ToolConsole\obj\Debug\net6.0\ToolConsole.genruntimeconfig.cache
+D:\Tool\Tool_Console_CShap\ToolConsole\obj\Debug\net6.0\ref\ToolConsole.dll
