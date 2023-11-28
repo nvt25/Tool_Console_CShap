@@ -1,0 +1,14 @@
+D:\Tool\ToolConsole\ToolConsole\bin\Debug\net6.0\ToolConsole.exe
+D:\Tool\ToolConsole\ToolConsole\bin\Debug\net6.0\ToolConsole.deps.json
+D:\Tool\ToolConsole\ToolConsole\bin\Debug\net6.0\ToolConsole.runtimeconfig.json
+D:\Tool\ToolConsole\ToolConsole\bin\Debug\net6.0\ToolConsole.dll
+D:\Tool\ToolConsole\ToolConsole\bin\Debug\net6.0\ToolConsole.pdb
+D:\Tool\ToolConsole\ToolConsole\obj\Debug\net6.0\ToolConsole.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tool\ToolConsole\ToolConsole\obj\Debug\net6.0\ToolConsole.AssemblyInfoInputs.cache
+D:\Tool\ToolConsole\ToolConsole\obj\Debug\net6.0\ToolConsole.AssemblyInfo.cs
+D:\Tool\ToolConsole\ToolConsole\obj\Debug\net6.0\ToolConsole.csproj.CoreCompileInputs.cache
+D:\Tool\ToolConsole\ToolConsole\obj\Debug\net6.0\ToolConsole.dll
+D:\Tool\ToolConsole\ToolConsole\obj\Debug\net6.0\refint\ToolConsole.dll
+D:\Tool\ToolConsole\ToolConsole\obj\Debug\net6.0\ToolConsole.pdb
+D:\Tool\ToolConsole\ToolConsole\obj\Debug\net6.0\ToolConsole.genruntimeconfig.cache
+D:\Tool\ToolConsole\ToolConsole\obj\Debug\net6.0\ref\ToolConsole.dll
