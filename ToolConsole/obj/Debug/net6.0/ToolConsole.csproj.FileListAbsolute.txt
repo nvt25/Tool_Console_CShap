@@ -26,3 +26,4 @@ D:\Tool\Tool_Console_CShap\ToolConsole\obj\Debug\net6.0\refint\ToolConsole.dll
 D:\Tool\Tool_Console_CShap\ToolConsole\obj\Debug\net6.0\ToolConsole.pdb
 D:\Tool\Tool_Console_CShap\ToolConsole\obj\Debug\net6.0\ToolConsole.genruntimeconfig.cache
 D:\Tool\Tool_Console_CShap\ToolConsole\obj\Debug\net6.0\ref\ToolConsole.dll
+D:\Tool\Tool_Console_CShap\ToolConsole\obj\Debug\net6.0\ToolConsole.sourcelink.json

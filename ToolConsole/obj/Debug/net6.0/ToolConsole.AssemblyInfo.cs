@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ToolConsole")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48524bf95b5551a6da93a7fe4711f23bf338437f")]
 [assembly: System.Reflection.AssemblyProductAttribute("ToolConsole")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ToolConsole")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
